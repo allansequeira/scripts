@@ -6,7 +6,7 @@
 #       - Have Xcode tools installed. Xcode is available from the Apple Developer website
 #       - Install wxWidgets. The 'observer' app (a replacement to 'appmon') uses wxWidgets for the GUI.
 #         You can install wxWidgets by using the script install-wxwidgets.sh 
-#	- Install openssl-1.0.2j. See install-openssl-1.0.2j-osx.sh
+#	      - Install openssl-1.0.2j. See install-openssl-1.0.2j-osx.sh
 #
 #
 # Run the script as follows:
@@ -49,8 +49,8 @@ install_dir=`pwd`
 echo "install_dir: $install_dir"
 
 # get erlang source
-#curl -O http://erlang.org/download/otp_src_$1.tar.gz
-#tar zxvf otp_src_$1.tar.gz
+curl -O http://erlang.org/download/otp_src_$1.tar.gz
+tar zxvf otp_src_$1.tar.gz
 cd otp_src_$1
 
 # If you are on Lion (OS/X 10.7) you can use LLVM, the default, or GCC to compile Erlang
