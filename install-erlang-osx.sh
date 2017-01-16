@@ -28,7 +28,7 @@
 
 if [ $# -lt 1 ]
 then
-  echo "Usage: sh install-erlang-macosx.sh <erlang_version>"
+  echo "Usage: sh install-erlang-osx.sh <erlang_version>"
   exit 2
 fi
 
