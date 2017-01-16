@@ -10,7 +10,7 @@
 #
 #
 # Run the script as follows:
-# sh install-erlang-macosx.sh <erlang_version>
+# sh install-erlang-osx.sh <erlang_version>
 # where,
 #  erlang_version => the latest version can be obtained from www.erlang.org/download.html
 #        For instance, the current latest version, as of 12/14/2016, is "19.2"
