@@ -2,7 +2,9 @@
 #
 # Install openssl-1.0.2j
 #
-#
+# Post-installation, update the PATH variable to point to the new openssl install as follows:
+#	export OPENSSL_HOME=/usr/local/ssl/openssl-1.0.2j
+#	export PATH=$OPENSSL_HOME/bin:$PATH
 #
 
 VERSION=openssl-1.0.2j
